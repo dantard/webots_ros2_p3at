@@ -61,7 +61,7 @@ class WebotsSkidSteerNode(WebotsNode):
                  back_right_joint='back right wheel',
                  back_left_encoder='back left wheel sensor',
                  back_right_encoder='back right wheel sensor',
-                 command_topic='/cmd_vela',
+                 command_topic='/cmd_vel',
                  odometry_topic='/odom',
                  odometry_frame='odom',
                  robot_base_frame='base_link'
