@@ -37,8 +37,8 @@ class P3ATDriver(WebotsSkidSteerNode):
         )
         self.start_device_manager({
             'robot': {'publish_base_footprint': True},
-            'LDS-01': {'topic_name': '/scan'},
-            'inertial_unit+accelerometer+gyro': {'frame_id': 'imu_link', 'topic_name': '/imu'}
+#            'LDS-01': {'topic_name': '/scan'},
+#            'inertial_unit+accelerometer+gyro': {'frame_id': 'imu_link', 'topic_name': '/imu'}
         })
 
 

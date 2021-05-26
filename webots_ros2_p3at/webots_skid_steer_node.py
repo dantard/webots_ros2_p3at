@@ -21,7 +21,7 @@ from rcl_interfaces.msg import SetParametersResult
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist, TransformStamped
 from tf2_ros import TransformBroadcaster
-from webots_ros2_core.webots_node import WebotsNode
+from .webots_node import WebotsNode
 from webots_ros2_core.utils import get_node_name_from_args
 
 

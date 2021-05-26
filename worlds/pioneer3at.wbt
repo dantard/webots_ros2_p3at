@@ -385,6 +385,7 @@ DEF PIONEER_3AT Pioneer3at {
   extensionSlot [
     SickLms291 {
       translation 0 0.24 -0.136
+      name "scan"
     }
   ]
 }
